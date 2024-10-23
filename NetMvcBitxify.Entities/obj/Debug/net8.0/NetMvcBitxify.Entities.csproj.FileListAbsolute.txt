@@ -1,0 +1,11 @@
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/bin/Debug/net8.0/NetMvcBitxify.Entities.deps.json
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/bin/Debug/net8.0/NetMvcBitxify.Entities.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/bin/Debug/net8.0/NetMvcBitxify.Entities.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/refint/NetMvcBitxify.Entities.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/ref/NetMvcBitxify.Entities.dll

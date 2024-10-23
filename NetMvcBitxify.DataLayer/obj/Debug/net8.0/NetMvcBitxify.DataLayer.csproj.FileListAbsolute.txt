@@ -1,0 +1,17 @@
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/bin/Debug/net8.0/NetMvcBitxify.DataLayer.deps.json
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/bin/Debug/net8.0/NetMvcBitxify.DataLayer.runtimeconfig.json
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/bin/Debug/net8.0/NetMvcBitxify.DataLayer.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/bin/Debug/net8.0/NetMvcBitxify.DataLayer.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/bin/Debug/net8.0/NetMvcBitxify.Entities.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/bin/Debug/net8.0/NetMvcBitxify.Entities.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.csproj.AssemblyReference.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBi.1D22982F.Up2Date
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/refint/NetMvcBitxify.DataLayer.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.genruntimeconfig.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/ref/NetMvcBitxify.DataLayer.dll

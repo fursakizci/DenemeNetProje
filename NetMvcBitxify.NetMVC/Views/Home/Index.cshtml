@@ -1,0 +1,145 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Add Product Form -->
+<!-- Product Form (Add/Edit) -->
+<div>
+    <h2 id="formTitle">Add New Product</h2>
+    <form id="productForm">
+        <input type="hidden" id="productId">
+        <div>
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+        </div>
+        <div>
+            <label for="productPrice">Price:</label>
+            <input type="number" id="productPrice" name="productPrice" required>
+        </div>
+        <button type="button" id="formButton" onclick="addProduct()">Add Product</button>
+    </form>
+</div>
+
+
+<!-- Product List HTML Table -->
+<table id="productTable">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data will be filled by AJAX -->
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    // Fetch all products using AJAX
+    function fetchProducts() {
+        $.ajax({
+            url: '/Home/GetAll',
+            type: 'GET',
+            success: function (data) {
+                $('#productTable tbody').empty(); // Clear existing rows
+                $.each(data, function (i, product) {
+                    var row = '<tr><td>' + product.name + '</td><td>' + product.price + '</td>' +
+                        '<td><button onclick="editProduct(' + product.id + ')">Edit</button>' +
+                        '<button onclick="deleteProduct(' + product.id + ')">Delete</button></td></tr>';
+                    $('#productTable tbody').append(row);
+                });
+            }
+        });
+    }
+
+   // Add or update product using AJAX
+   function addProduct() {
+       var productId = $('#productId').val();
+       var productData = {
+           name: $('#productName').val(),
+           price: $('#productPrice').val()
+       };
+   
+       if (productId) { // Eğer ID varsa, güncelleme işlemi yapılıyor
+           productData.id = productId;
+           $.ajax({
+               url: '/Home/Update',
+               type: 'PUT',
+               contentType: 'application/json',
+               data: JSON.stringify(productData),
+               success: function (response) {
+                   if (response.success) {
+                       alert(response.message);
+                       fetchProducts(); // Refresh product list
+                       resetForm(); // Formu sıfırla
+                   } else {
+                       alert(response.message);
+                   }
+               }
+           });
+       } else { // Yeni ürün ekleniyor
+           $.ajax({
+               url: '/Home/Create',
+               type: 'POST',
+               contentType: 'application/json',
+               data: JSON.stringify(productData),
+               success: function (response) {
+                   if (response.success) {
+                       alert(response.message);
+                       fetchProducts(); // Refresh product list
+                       resetForm(); // Formu sıfırla
+                   } else {
+                       alert(response.message);
+                   }
+               }
+           });
+       }
+   }
+   // Fetch product data and fill the form for editing
+   function editProduct(id) {
+       $.ajax({
+           url: '/Home/Get/' + id,
+           type: 'GET',
+           success: function (product) {
+               // Formu düzenleme için hazırla
+               $('#formTitle').text('Edit Product');
+               $('#formButton').text('Update Product');
+               $('#productId').val(product.id);
+               $('#productName').val(product.name);
+               $('#productPrice').val(product.price);
+           }
+       });
+   }
+   
+   // Formu sıfırla (yeni ürün ekleme moduna geri dön)
+   function resetForm() {
+       $('#formTitle').text('Add New Product');
+       $('#formButton').text('Add Product');
+       $('#productId').val('');
+       $('#productName').val('');
+       $('#productPrice').val('');
+   }
+
+    // Delete product
+    function deleteProduct(id) {
+        $.ajax({
+            url: '/Home/Delete/' + id,
+            type: 'DELETE',
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message);
+                    fetchProducts(); // Refresh product list
+                } else {
+                    alert(response.message);
+                }
+            }
+        });
+    }
+
+    // Call fetchProducts when page loads
+    $(document).ready(function () {
+        fetchProducts();
+    });
+</script>

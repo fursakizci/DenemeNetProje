@@ -1,0 +1,17 @@
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.Business.deps.json
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.Business.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.Business.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.Entities.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.Entities.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.csproj.AssemblyReference.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.AssemblyInfoInputs.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.AssemblyInfo.cs
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.csproj.CoreCompileInputs.cache
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBi.16637200.Up2Date
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/refint/NetMvcBitxify.Business.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/NetMvcBitxify.Business.pdb
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/obj/Debug/net8.0/ref/NetMvcBitxify.Business.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.DataLayer.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Business/bin/Debug/net8.0/NetMvcBitxify.DataLayer.pdb
