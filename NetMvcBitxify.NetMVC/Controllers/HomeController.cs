@@ -12,15 +12,19 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly IProductBusiness _productBusiness;
+    private readonly ICategoryBusiness _categoryBusiness;
     private readonly IMapper _mapper;
 
     public HomeController(
         ILogger<HomeController> logger,
         IProductBusiness productBusiness,
-        IMapper mapper)
+        IMapper mapper,
+        ICategoryBusiness categoryBusiness)
+        
     {
         _logger = logger;
         _productBusiness = productBusiness;
+        _categoryBusiness = categoryBusiness;
         _mapper = mapper;
     }
 
@@ -47,9 +51,9 @@ public class HomeController : Controller
             {
                 return Json(new { success = false, message = "Product not found!" });
             }
-
             product.Name = productViewModel.Name;
             product.Price = productViewModel.Price;
+            product.CategoryId = productViewModel.CategoryId;
 
             await _productBusiness.UpdateAsync(product);
             return Json(new { success = true, message = "Product updated successfully!" });
@@ -68,7 +72,7 @@ public class HomeController : Controller
     [HttpGet]
     public async Task<IActionResult> Get(int id)
     {
-        var product = await _productBusiness.GetByIdAsync(id);
+        var product = await _productBusiness.GetByIdWithCategoryAsync(id);
         if (product == null)
         {
             return NotFound();
@@ -81,12 +85,30 @@ public class HomeController : Controller
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var allProduct = await _productBusiness.GetAllAsync();
-        return Json(allProduct);
+        try
+        {
+            var allProduct = await _productBusiness.GetAllWithCategoryAsync();
+            var productWithCategory = allProduct.Select(product => new ProductViewModel
+            {
+                Id=product.Id,
+                Name=product.Name,
+                Price=product.Price,
+                Category = _mapper.Map<CategoryViewModel>(product.Category)
+            }).ToList();
+
+            return Json(productWithCategory);
+        }
+        catch (Exception ex) { 
+            
+        }
+
+        return Json("");
     }
     
     public async Task<IActionResult> Index()
     {
+        var categories = await _categoryBusiness.GetAllAsync(); 
+        ViewData["Categories"] = categories;
         return View();
     }
 

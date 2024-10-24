@@ -8,4 +8,7 @@ public class ProductViewModel
     [Required(ErrorMessage = "Name is required")]
     public string Name { get; set; }
     public double Price { get; set; }
+    public int CategoryId { get; set; }
+
+    public CategoryViewModel? Category { get; set; } = null;
 }

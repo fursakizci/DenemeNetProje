@@ -15,3 +15,4 @@
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.pdb
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.genruntimeconfig.cache
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/ref/NetMvcBitxify.DataLayer.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.DataLayer/obj/Debug/net8.0/NetMvcBitxify.DataLayer.sourcelink.json

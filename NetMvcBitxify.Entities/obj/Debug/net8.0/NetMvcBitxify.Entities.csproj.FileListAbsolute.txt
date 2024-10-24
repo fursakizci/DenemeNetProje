@@ -9,3 +9,4 @@
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/refint/NetMvcBitxify.Entities.dll
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.pdb
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/ref/NetMvcBitxify.Entities.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.Entities/obj/Debug/net8.0/NetMvcBitxify.Entities.sourcelink.json

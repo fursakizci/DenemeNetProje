@@ -144,3 +144,4 @@
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.NetMVC/obj/Debug/net8.0/NetMvcBi.399E7315.Up2Date
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.NetMVC/bin/Debug/net8.0/AutoMapper.dll
 /Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.NetMVC/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/furkansakizci/Desktop/Projects/NetMvcBitxify/NetMvcBitxify.NetMVC/obj/Debug/net8.0/NetMvcBitxify.NetMVC.sourcelink.json

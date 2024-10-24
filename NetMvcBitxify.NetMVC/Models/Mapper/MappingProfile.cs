@@ -9,5 +9,8 @@ public class MappingProfile:Profile
     {
         CreateMap<Product, ProductViewModel>();
         CreateMap<ProductViewModel, Product>();
+        
+        CreateMap<CategoryViewModel, Category>();
+        CreateMap<Category, CategoryViewModel>();
     }
 }

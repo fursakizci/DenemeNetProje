@@ -38,4 +38,14 @@ public class ProductBusiness:IProductBusiness
     {
         await _productRepository.DeleteAsync(id);
     }
+
+    public async Task<IEnumerable<Product>> GetAllWithCategoryAsync()
+    {
+        return await _productRepository.GetAllWithCategoryAsync();
+    }
+
+    public async Task<Product> GetByIdWithCategoryAsync(int id)
+    {
+        return await _productRepository.GetByIdWithCategoryAsync(id);
+    }
 }

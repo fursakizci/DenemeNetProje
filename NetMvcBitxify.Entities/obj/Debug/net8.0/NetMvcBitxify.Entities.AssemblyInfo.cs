@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetMvcBitxify.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+316144042c647a0454e74e3a1030caeb4069ca72")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetMvcBitxify.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetMvcBitxify.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
